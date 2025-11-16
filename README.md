@@ -62,7 +62,21 @@ A projekt **nem végez automatikus scrapinget**. A Menetrendek.hu szolgáltatás
 
 ## Településlista
 
-A `data_raw/baranya_telepulesek.csv` tartalmazza a települések nevét és koordinátáit. A demóban ~10 település szerepel. Teljes lefedéshez bővítsd a listát (formátum: `telepules_id,telepules_nev,lat,lon`).
+A `data_raw/baranya_telepulesek.csv` tartalmazza a települések nevét és koordinátáit. A demóban ~10 település szerepel – éles használathoz szükség van **Baranya összes településére** ugyanebben a formátumban (`telepules_id,telepules_nev,lat,lon`).
+
+### Automatikus frissítés (Wikidata)
+
+1. Futtasd az új segédszkriptet, amely a Wikidata SPARQL végpontról tölti le a teljes listát és felülírja a CSV-t:
+   ```bash
+   .venv/bin/python scripts/update_settlements_wikidata.py
+   ```
+   - Internetkapcsolat és a Wikidata elérése szükséges.
+   - Ha vállalati proxy mögött futsz, gondoskodj róla, hogy a `https_proxy` / `HTTPS_PROXY` változók helyesen legyenek beállítva.
+2. Ezek után futtasd a feldolgozót:
+   ```bash
+   .venv/bin/python scripts/process_timetables.py
+   ```
+   A feldolgozó már minden településhez létrehozza a GeoJSON pontot, akkor is, ha nincs hozzá menetrendi adat (ilyenkor `reachable = false`).
 
 ## Kimenet
 
