@@ -62,8 +62,6 @@ A projekt **nem végez automatikus scrapinget**. A Menetrendek.hu szolgáltatás
 
 ## Településlista
 
-A `data_raw/baranya_telepulesek.csv` most **mind a 301 baranyai települést** tartalmazza a Wikidatáról származó koordinátákkal (`telepules_id,telepules_nev,lat,lon`). Így a demó feldolgozó futása után minden település pontként jelenik meg a térképen, akkor is, ha nincs hozzá menetrendi adat.
-
 ### Automatikus frissítés (Wikidata)
 
 1. Futtasd az új segédszkriptet, amely a Wikidata SPARQL végpontról tölti le a teljes listát és felülírja a CSV-t:
