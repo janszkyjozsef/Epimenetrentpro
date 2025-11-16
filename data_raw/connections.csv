@@ -1,0 +1,11 @@
+origin_name,departure_time,arrival_time,transfer_count
+Abaliget,06:30,07:15,0
+Kozármisleny,06:50,07:05,0
+Komló,06:10,07:00,1
+Harkány,06:20,07:25,1
+Siklós,06:30,07:15,0
+Mohács,05:50,07:05,1
+Szentlőrinc,06:45,07:10,0
+Pécsvárad,06:40,07:20,0
+Szigetvár,05:50,07:10,1
+Pécs,06:59,07:00,0

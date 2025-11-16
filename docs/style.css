@@ -1,0 +1,22 @@
+html, body { height: 100%; margin: 0; padding: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+#map { height: 100%; width: 100%; }
+
+.panel {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: rgba(255,255,255,0.95);
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+  z-index: 1000;
+  min-width: 280px;
+}
+.panel .row { margin-bottom: 10px; }
+.panel .row.slider-row { margin-top: 8px; }
+.panel .slot-marks {
+  display: flex; justify-content: space-between; font-size: 12px; opacity: 0.8;
+}
+.legend { font-size: 13px; line-height: 1.5; }
+.legend .item { display: flex; align-items: center; gap: 6px; }
+.legend .swatch { width: 14px; height: 14px; display: inline-block; border-radius: 3px; border: 1px solid #aaa; }

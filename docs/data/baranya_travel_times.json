@@ -1,0 +1,289 @@
+{
+  "date": "2025-11-16",
+  "arrival_window": {
+    "start": "07:00",
+    "end": "10:00"
+  },
+  "settlements": [
+    {
+      "id": 1,
+      "name": "Pécs",
+      "lat": 46.0727,
+      "lon": 18.2323,
+      "reachable": true,
+      "best_trip": {
+        "departure_time": "06:59",
+        "arrival_time": "07:00",
+        "duration_minutes": 1,
+        "transfer_count": 0
+      },
+      "best_duration": 1,
+      "best_transfer_count": 0,
+      "time_slots": [
+        {
+          "departure_time": "06:59",
+          "arrival_time": "07:00",
+          "duration_minutes": 1,
+          "transfer_count": 0
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Abaliget",
+      "lat": 46.141,
+      "lon": 18.096,
+      "reachable": true,
+      "best_trip": {
+        "departure_time": "06:30",
+        "arrival_time": "07:15",
+        "duration_minutes": 45,
+        "transfer_count": 0
+      },
+      "best_duration": 45,
+      "best_transfer_count": 0,
+      "time_slots": [
+        {
+          "departure_time": "06:30",
+          "arrival_time": "07:15",
+          "duration_minutes": 45,
+          "transfer_count": 0
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Kozármisleny",
+      "lat": 46.04,
+      "lon": 18.31,
+      "reachable": true,
+      "best_trip": {
+        "departure_time": "06:50",
+        "arrival_time": "07:05",
+        "duration_minutes": 15,
+        "transfer_count": 0
+      },
+      "best_duration": 15,
+      "best_transfer_count": 0,
+      "time_slots": [
+        {
+          "departure_time": "06:50",
+          "arrival_time": "07:05",
+          "duration_minutes": 15,
+          "transfer_count": 0
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Komló",
+      "lat": 46.19,
+      "lon": 18.26,
+      "reachable": true,
+      "best_trip": {
+        "departure_time": "06:10",
+        "arrival_time": "07:00",
+        "duration_minutes": 50,
+        "transfer_count": 1
+      },
+      "best_duration": 50,
+      "best_transfer_count": 1,
+      "time_slots": [
+        {
+          "departure_time": "06:10",
+          "arrival_time": "07:00",
+          "duration_minutes": 50,
+          "transfer_count": 1
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Harkány",
+      "lat": 45.847,
+      "lon": 18.235,
+      "reachable": true,
+      "best_trip": {
+        "departure_time": "06:20",
+        "arrival_time": "07:25",
+        "duration_minutes": 65,
+        "transfer_count": 1
+      },
+      "best_duration": 65,
+      "best_transfer_count": 1,
+      "time_slots": [
+        {
+          "departure_time": "06:20",
+          "arrival_time": "07:25",
+          "duration_minutes": 65,
+          "transfer_count": 1
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Siklós",
+      "lat": 45.854,
+      "lon": 18.296,
+      "reachable": true,
+      "best_trip": {
+        "departure_time": "06:30",
+        "arrival_time": "07:15",
+        "duration_minutes": 45,
+        "transfer_count": 0
+      },
+      "best_duration": 45,
+      "best_transfer_count": 0,
+      "time_slots": [
+        {
+          "departure_time": "06:30",
+          "arrival_time": "07:15",
+          "duration_minutes": 45,
+          "transfer_count": 0
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Mohács",
+      "lat": 45.991,
+      "lon": 18.686,
+      "reachable": true,
+      "best_trip": {
+        "departure_time": "05:50",
+        "arrival_time": "07:05",
+        "duration_minutes": 75,
+        "transfer_count": 1
+      },
+      "best_duration": 75,
+      "best_transfer_count": 1,
+      "time_slots": [
+        {
+          "departure_time": "05:50",
+          "arrival_time": "07:05",
+          "duration_minutes": 75,
+          "transfer_count": 1
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Szentlőrinc",
+      "lat": 46.046,
+      "lon": 17.98,
+      "reachable": true,
+      "best_trip": {
+        "departure_time": "06:45",
+        "arrival_time": "07:10",
+        "duration_minutes": 25,
+        "transfer_count": 0
+      },
+      "best_duration": 25,
+      "best_transfer_count": 0,
+      "time_slots": [
+        {
+          "departure_time": "06:45",
+          "arrival_time": "07:10",
+          "duration_minutes": 25,
+          "transfer_count": 0
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Pécsvárad",
+      "lat": 46.16,
+      "lon": 18.42,
+      "reachable": true,
+      "best_trip": {
+        "departure_time": "06:40",
+        "arrival_time": "07:20",
+        "duration_minutes": 40,
+        "transfer_count": 0
+      },
+      "best_duration": 40,
+      "best_transfer_count": 0,
+      "time_slots": [
+        {
+          "departure_time": "06:40",
+          "arrival_time": "07:20",
+          "duration_minutes": 40,
+          "transfer_count": 0
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Szigetvár",
+      "lat": 46.048,
+      "lon": 17.803,
+      "reachable": true,
+      "best_trip": {
+        "departure_time": "05:50",
+        "arrival_time": "07:10",
+        "duration_minutes": 80,
+        "transfer_count": 1
+      },
+      "best_duration": 80,
+      "best_transfer_count": 1,
+      "time_slots": [
+        {
+          "departure_time": "05:50",
+          "arrival_time": "07:10",
+          "duration_minutes": 80,
+          "transfer_count": 1
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}
